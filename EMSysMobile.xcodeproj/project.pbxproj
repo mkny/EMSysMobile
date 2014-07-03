@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3C9BCE19632FE80073AB8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3C9BCD19632FE80073AB8D /* Foundation.framework */; };
+		1A3C9BD019632FE80073AB8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3C9BCF19632FE80073AB8D /* CoreGraphics.framework */; };
+		1A3C9BD219632FE80073AB8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3C9BD119632FE80073AB8D /* UIKit.framework */; };
+		1A3C9BD819632FE80073AB8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A3C9BD619632FE80073AB8D /* InfoPlist.strings */; };
+		1A3C9BDA19632FE80073AB8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3C9BD919632FE80073AB8D /* main.m */; };
+		1A3C9BE619632FE80073AB8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3C9BE519632FE80073AB8D /* Images.xcassets */; };
+		1A3C9BED19632FE80073AB8D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3C9BEC19632FE80073AB8D /* XCTest.framework */; };
+		1A3C9BEE19632FE80073AB8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3C9BCD19632FE80073AB8D /* Foundation.framework */; };
+		1A3C9BEF19632FE80073AB8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3C9BD119632FE80073AB8D /* UIKit.framework */; };
+		1A3C9BF719632FE80073AB8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A3C9BF519632FE80073AB8D /* InfoPlist.strings */; };
+		1A3C9BF919632FE80073AB8D /* EMSysMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3C9BF819632FE80073AB8D /* EMSysMobileTests.m */; };
+		1A3C9C0E1963301C0073AB8D /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A3C9C021963301C0073AB8D /* icon3.png */; };
+		1A3C9C0F1963301C0073AB8D /* logo-emsys.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A3C9C031963301C0073AB8D /* logo-emsys.png */; };
+		1A3C9C101963301C0073AB8D /* logos.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A3C9C041963301C0073AB8D /* logos.png */; };
+		1A3C9C111963301C0073AB8D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3C9C061963301C0073AB8D /* Reachability.m */; };
+		1A3C9C121963301C0073AB8D /* rezAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3C9C081963301C0073AB8D /* rezAppDelegate.m */; };
+		1A3C9C131963301C0073AB8D /* rezBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3C9C0A1963301C0073AB8D /* rezBrowserViewController.m */; };
+		1A3C9C141963301C0073AB8D /* rezViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3C9C0C1963301C0073AB8D /* rezViewController.m */; };
+		1A3C9C151963301C0073AB8D /* sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A3C9C0D1963301C0073AB8D /* sprite.png */; };
+		1A3C9C171963302C0073AB8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3C9C161963302C0073AB8D /* Main.storyboard */; };
+		1A3C9C2B1963358D0073AB8D /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3C9C2A1963358D0073AB8D /* Main-iPad.storyboard */; };
+		1AF9904019633BD500C50A06 /* logo-emsys-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF9903F19633BD500C50A06 /* logo-emsys-ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A3C9BF019632FE80073AB8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A3C9BC219632FE80073AB8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3C9BC919632FE80073AB8D;
+			remoteInfo = EMSysMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A3C9BCA19632FE80073AB8D /* EMSysMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMSysMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3C9BCD19632FE80073AB8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A3C9BCF19632FE80073AB8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A3C9BD119632FE80073AB8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A3C9BD519632FE80073AB8D /* EMSysMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMSysMobile-Info.plist"; sourceTree = "<group>"; };
+		1A3C9BD719632FE80073AB8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A3C9BD919632FE80073AB8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A3C9BDB19632FE80073AB8D /* EMSysMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMSysMobile-Prefix.pch"; sourceTree = "<group>"; };
+		1A3C9BE519632FE80073AB8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A3C9BEB19632FE80073AB8D /* EMSysMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMSysMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3C9BEC19632FE80073AB8D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1A3C9BF419632FE80073AB8D /* EMSysMobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMSysMobileTests-Info.plist"; sourceTree = "<group>"; };
+		1A3C9BF619632FE80073AB8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A3C9BF819632FE80073AB8D /* EMSysMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMSysMobileTests.m; sourceTree = "<group>"; };
+		1A3C9C021963301C0073AB8D /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
+		1A3C9C031963301C0073AB8D /* logo-emsys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-emsys.png"; sourceTree = "<group>"; };
+		1A3C9C041963301C0073AB8D /* logos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logos.png; sourceTree = "<group>"; };
+		1A3C9C051963301C0073AB8D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1A3C9C061963301C0073AB8D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1A3C9C071963301C0073AB8D /* rezAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rezAppDelegate.h; sourceTree = "<group>"; };
+		1A3C9C081963301C0073AB8D /* rezAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rezAppDelegate.m; sourceTree = "<group>"; };
+		1A3C9C091963301C0073AB8D /* rezBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rezBrowserViewController.h; sourceTree = "<group>"; };
+		1A3C9C0A1963301C0073AB8D /* rezBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rezBrowserViewController.m; sourceTree = "<group>"; };
+		1A3C9C0B1963301C0073AB8D /* rezViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rezViewController.h; sourceTree = "<group>"; };
+		1A3C9C0C1963301C0073AB8D /* rezViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rezViewController.m; sourceTree = "<group>"; };
+		1A3C9C0D1963301C0073AB8D /* sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprite.png; sourceTree = "<group>"; };
+		1A3C9C161963302C0073AB8D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1A3C9C2A1963358D0073AB8D /* Main-iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iPad.storyboard"; sourceTree = "<group>"; };
+		1AF9903F19633BD500C50A06 /* logo-emsys-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-emsys-ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A3C9BC719632FE80073AB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3C9BD019632FE80073AB8D /* CoreGraphics.framework in Frameworks */,
+				1A3C9BD219632FE80073AB8D /* UIKit.framework in Frameworks */,
+				1A3C9BCE19632FE80073AB8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3C9BE819632FE80073AB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3C9BED19632FE80073AB8D /* XCTest.framework in Frameworks */,
+				1A3C9BEF19632FE80073AB8D /* UIKit.framework in Frameworks */,
+				1A3C9BEE19632FE80073AB8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3C9BC119632FE80073AB8D = {
+			isa = PBXGroup;
+			children = (
+				1A3C9BD319632FE80073AB8D /* EMSysMobile */,
+				1A3C9BF219632FE80073AB8D /* EMSysMobileTests */,
+				1A3C9BCC19632FE80073AB8D /* Frameworks */,
+				1A3C9BCB19632FE80073AB8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A3C9BCB19632FE80073AB8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A3C9BCA19632FE80073AB8D /* EMSysMobile.app */,
+				1A3C9BEB19632FE80073AB8D /* EMSysMobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A3C9BCC19632FE80073AB8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A3C9BCD19632FE80073AB8D /* Foundation.framework */,
+				1A3C9BCF19632FE80073AB8D /* CoreGraphics.framework */,
+				1A3C9BD119632FE80073AB8D /* UIKit.framework */,
+				1A3C9BEC19632FE80073AB8D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A3C9BD319632FE80073AB8D /* EMSysMobile */ = {
+			isa = PBXGroup;
+			children = (
+				1A3C9C2A1963358D0073AB8D /* Main-iPad.storyboard */,
+				1A3C9C161963302C0073AB8D /* Main.storyboard */,
+				1A3C9C29196335640073AB8D /* Imagens */,
+				1A3C9C28196335560073AB8D /* Classes */,
+				1A3C9BE519632FE80073AB8D /* Images.xcassets */,
+				1A3C9BD419632FE80073AB8D /* Supporting Files */,
+			);
+			path = EMSysMobile;
+			sourceTree = "<group>";
+		};
+		1A3C9BD419632FE80073AB8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A3C9BD519632FE80073AB8D /* EMSysMobile-Info.plist */,
+				1A3C9BD619632FE80073AB8D /* InfoPlist.strings */,
+				1A3C9BD919632FE80073AB8D /* main.m */,
+				1A3C9BDB19632FE80073AB8D /* EMSysMobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A3C9BF219632FE80073AB8D /* EMSysMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A3C9BF819632FE80073AB8D /* EMSysMobileTests.m */,
+				1A3C9BF319632FE80073AB8D /* Supporting Files */,
+			);
+			path = EMSysMobileTests;
+			sourceTree = "<group>";
+		};
+		1A3C9BF319632FE80073AB8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A3C9BF419632FE80073AB8D /* EMSysMobileTests-Info.plist */,
+				1A3C9BF519632FE80073AB8D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A3C9C28196335560073AB8D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1A3C9C051963301C0073AB8D /* Reachability.h */,
+				1A3C9C061963301C0073AB8D /* Reachability.m */,
+				1A3C9C071963301C0073AB8D /* rezAppDelegate.h */,
+				1A3C9C081963301C0073AB8D /* rezAppDelegate.m */,
+				1A3C9C091963301C0073AB8D /* rezBrowserViewController.h */,
+				1A3C9C0A1963301C0073AB8D /* rezBrowserViewController.m */,
+				1A3C9C0B1963301C0073AB8D /* rezViewController.h */,
+				1A3C9C0C1963301C0073AB8D /* rezViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1A3C9C29196335640073AB8D /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				1AF9903F19633BD500C50A06 /* logo-emsys-ipad.png */,
+				1A3C9C021963301C0073AB8D /* icon3.png */,
+				1A3C9C031963301C0073AB8D /* logo-emsys.png */,
+				1A3C9C041963301C0073AB8D /* logos.png */,
+				1A3C9C0D1963301C0073AB8D /* sprite.png */,
+			);
+			name = Imagens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A3C9BC919632FE80073AB8D /* EMSysMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3C9BFC19632FE80073AB8D /* Build configuration list for PBXNativeTarget "EMSysMobile" */;
+			buildPhases = (
+				1A3C9BC619632FE80073AB8D /* Sources */,
+				1A3C9BC719632FE80073AB8D /* Frameworks */,
+				1A3C9BC819632FE80073AB8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMSysMobile;
+			productName = EMSysMobile;
+			productReference = 1A3C9BCA19632FE80073AB8D /* EMSysMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A3C9BEA19632FE80073AB8D /* EMSysMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3C9BFF19632FE80073AB8D /* Build configuration list for PBXNativeTarget "EMSysMobileTests" */;
+			buildPhases = (
+				1A3C9BE719632FE80073AB8D /* Sources */,
+				1A3C9BE819632FE80073AB8D /* Frameworks */,
+				1A3C9BE919632FE80073AB8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A3C9BF119632FE80073AB8D /* PBXTargetDependency */,
+			);
+			name = EMSysMobileTests;
+			productName = EMSysMobileTests;
+			productReference = 1A3C9BEB19632FE80073AB8D /* EMSysMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A3C9BC219632FE80073AB8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = rez;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					1A3C9BC919632FE80073AB8D = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					1A3C9BEA19632FE80073AB8D = {
+						TestTargetID = 1A3C9BC919632FE80073AB8D;
+					};
+				};
+			};
+			buildConfigurationList = 1A3C9BC519632FE80073AB8D /* Build configuration list for PBXProject "EMSysMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A3C9BC119632FE80073AB8D;
+			productRefGroup = 1A3C9BCB19632FE80073AB8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A3C9BC919632FE80073AB8D /* EMSysMobile */,
+				1A3C9BEA19632FE80073AB8D /* EMSysMobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A3C9BC819632FE80073AB8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3C9C171963302C0073AB8D /* Main.storyboard in Resources */,
+				1A3C9C0F1963301C0073AB8D /* logo-emsys.png in Resources */,
+				1A3C9C101963301C0073AB8D /* logos.png in Resources */,
+				1A3C9C2B1963358D0073AB8D /* Main-iPad.storyboard in Resources */,
+				1AF9904019633BD500C50A06 /* logo-emsys-ipad.png in Resources */,
+				1A3C9C151963301C0073AB8D /* sprite.png in Resources */,
+				1A3C9BE619632FE80073AB8D /* Images.xcassets in Resources */,
+				1A3C9BD819632FE80073AB8D /* InfoPlist.strings in Resources */,
+				1A3C9C0E1963301C0073AB8D /* icon3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3C9BE919632FE80073AB8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3C9BF719632FE80073AB8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A3C9BC619632FE80073AB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3C9C141963301C0073AB8D /* rezViewController.m in Sources */,
+				1A3C9C111963301C0073AB8D /* Reachability.m in Sources */,
+				1A3C9C131963301C0073AB8D /* rezBrowserViewController.m in Sources */,
+				1A3C9C121963301C0073AB8D /* rezAppDelegate.m in Sources */,
+				1A3C9BDA19632FE80073AB8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3C9BE719632FE80073AB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3C9BF919632FE80073AB8D /* EMSysMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A3C9BF119632FE80073AB8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A3C9BC919632FE80073AB8D /* EMSysMobile */;
+			targetProxy = 1A3C9BF019632FE80073AB8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A3C9BD619632FE80073AB8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3C9BD719632FE80073AB8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A3C9BF519632FE80073AB8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3C9BF619632FE80073AB8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A3C9BFA19632FE80073AB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A3C9BFB19632FE80073AB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A3C9BFD19632FE80073AB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMSysMobile/EMSysMobile-Prefix.pch";
+				INFOPLIST_FILE = "EMSysMobile/EMSysMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A3C9BFE19632FE80073AB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMSysMobile/EMSysMobile-Prefix.pch";
+				INFOPLIST_FILE = "EMSysMobile/EMSysMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A3C9C0019632FE80073AB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EMSysMobile.app/EMSysMobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMSysMobile/EMSysMobile-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EMSysMobileTests/EMSysMobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1A3C9C0119632FE80073AB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EMSysMobile.app/EMSysMobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMSysMobile/EMSysMobile-Prefix.pch";
+				INFOPLIST_FILE = "EMSysMobileTests/EMSysMobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A3C9BC519632FE80073AB8D /* Build configuration list for PBXProject "EMSysMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3C9BFA19632FE80073AB8D /* Debug */,
+				1A3C9BFB19632FE80073AB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3C9BFC19632FE80073AB8D /* Build configuration list for PBXNativeTarget "EMSysMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3C9BFD19632FE80073AB8D /* Debug */,
+				1A3C9BFE19632FE80073AB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3C9BFF19632FE80073AB8D /* Build configuration list for PBXNativeTarget "EMSysMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3C9C0019632FE80073AB8D /* Debug */,
+				1A3C9C0119632FE80073AB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A3C9BC219632FE80073AB8D /* Project object */;
+}

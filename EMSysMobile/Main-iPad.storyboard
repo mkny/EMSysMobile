@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="hra-TO-cER">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Rez View Controller-->
+        <scene sceneID="cYA-mK-c8J">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="1zG-v6-iV3" customClass="rezViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UlX-YQ-f8d" customClass="UIScrollView">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-emsys-ipad.png" id="DgM-w3-oJR">
+                                <rect key="frame" x="58" y="63" width="653" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" usesAttributedText="YES" placeholder="Endereço de e-mail" minimumFontSize="17" clearButtonMode="whileEditing" id="3Kb-o1-FaU">
+                                <rect key="frame" x="143" y="394" width="482" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Endereço de e-mail">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="17" name="ArialMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" keyboardAppearance="alert" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="1zG-v6-iV3" id="y8b-1k-w2O"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" placeholder="Palavra-chave" clearsOnBeginEditing="YES" minimumFontSize="17" id="5V5-1l-pI4">
+                                <rect key="frame" x="143" y="432" width="482" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Palavra-chave">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="17" name="ArialMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" minimumLineHeight="4"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardAppearance="alert" returnKeyType="done" secureTextEntry="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="1zG-v6-iV3" id="2io-N8-Mte"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="aEE-Br-MIo">
+                                <rect key="frame" x="143" y="487" width="482" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="0.87450980389999999" green="0.37254901959999998" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dcF-Qi-fkv" kind="push" identifier="doLogin" id="719-zS-m9K"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="NgJ-yf-BFw">
+                                <rect key="frame" x="32" y="775" width="254" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="0ce-qX-DNy">
+                                <rect key="frame" x="306" y="971" width="156" height="33"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="3nY-Ed-kYe">
+                                <rect key="frame" x="294" y="776" width="123" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Qjg-pB-ggn">
+                                <rect key="frame" x="435" y="776" width="302" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83921568629999999" green="0.18823529410000001" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outlet property="delegate" destination="1zG-v6-iV3" id="z6g-bL-YGb"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="mJl-Kx-DQo"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="logoLinx" destination="Qjg-pB-ggn" id="xnC-30-c1I"/>
+                        <outlet property="logoNet4biz" destination="3nY-Ed-kYe" id="JEc-hs-7uw"/>
+                        <outlet property="logoRezende" destination="NgJ-yf-BFw" id="Od3-aH-poi"/>
+                        <outlet property="logoRezende_2" destination="0ce-qX-DNy" id="CPS-Ec-YAm"/>
+                        <outlet property="logosys" destination="DgM-w3-oJR" id="fpF-h2-NH8"/>
+                        <outlet property="password" destination="5V5-1l-pI4" id="nH0-TZ-rAU"/>
+                        <outlet property="submit" destination="aEE-Br-MIo" id="1Qn-Gx-SkQ"/>
+                        <outlet property="username" destination="3Kb-o1-FaU" id="VRe-cf-MSy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sHM-6p-jgf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1983" y="-199"/>
+        </scene>
+        <!--Rez Browser View Controller-->
+        <scene sceneID="yzy-Qh-3F9">
+            <objects>
+                <viewController id="dcF-Qi-fkv" customClass="rezBrowserViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9rq-DG-0rQ">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="rNb-M6-Nda">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                    </view>
+                    <navigationItem key="navigationItem" id="rvs-B2-ATu"/>
+                    <connections>
+                        <outlet property="webView" destination="rNb-M6-Nda" id="85J-mK-IBh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iId-Yh-PI6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3836" y="-2027"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9ip-9c-ea8">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="hra-TO-cER" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cul-rM-kRv">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1zG-v6-iV3" kind="relationship" relationship="rootViewController" id="Szs-2r-uth"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gHu-kR-W0P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="106" y="-703"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo-emsys-ipad.png" width="814" height="335"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

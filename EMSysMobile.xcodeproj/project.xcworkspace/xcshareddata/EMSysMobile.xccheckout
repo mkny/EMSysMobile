@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D33E4FDF-4FE4-48F1-9668-6152F2073F0A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EMSysMobile</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4AFFA433-37A2-453D-910E-8A9D9BB227D5</key>
+		<string>https://github.com/mkny/EMSysMobile.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EMSysMobile.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4AFFA433-37A2-453D-910E-8A9D9BB227D5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mkny/EMSysMobile.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4AFFA433-37A2-453D-910E-8A9D9BB227D5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4AFFA433-37A2-453D-910E-8A9D9BB227D5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EMSysMobile</string>
+		</dict>
+	</array>
+</dict>
+</plist>
